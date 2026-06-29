@@ -7,3 +7,7 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.bo.textwidth = 80
   end,
 })
+
+-- force light bg on catpuccin through remotes
+vim.opt.background = "light"
+vim.opt.termguicolors = true
